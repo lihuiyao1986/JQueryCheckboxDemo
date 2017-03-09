@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+		<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.min.css" />
+	    <style>
+	    	  .container{
+	    	  	 display: flex;
+	    	  	 height: 500px;
+	    	  	 padding: 60px;
+	    	  	 justify-content: space-around;
+	    	  }
+	    	  .container-left{
+	    	  	 border: 1px solid red;
+	    	  	 height: 80%;
+	    	  	 flex: 1;
+	    	  	 margin-right: 60px;
+	    	  }
+	    	  .container-right{
+	    	  	  border: 1px solid #414141;
+	    	  	  height: 80%;
+	    	  	  flex: 1;
+	    	  }
+	    	  .title{
+	    	  	display: flex;
+	    	  	justify-content:space-between ;
+	    	    align-content: center;
+	    	    align-items: center;
+	    	  	padding: 10px;
+	    	  	border-bottom: 1px solid red;
+	    	  }
+	    	  .title .title-desc{
+	    	  	height: 100%;
+	    	  }
+	    </style>
+	    <script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	    <script type="text/javascript" src="static/h-ui/js/H-ui.min.js" ></script>
+	    <script type="text/javascript" src="js/demo.js" ></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container-left">
+				<div class="title">
+					<div class="title-desc">已有的小区</div>
+					<button class="btn btn-primary radius" id="removeBtn">删除小区</button>
+				</div>
+				<div class="content" id="item1">
+					
+				</div>
+			</div>
+			<div class="container-right">
+				<div class="title">
+					<div class="title-desc">未编制小区</div>
+					<button class="btn btn-primary radius" id="addBtn">添加小区</button>
+				</div>
+				<div class="content" id="item2">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
